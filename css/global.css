@@ -1,0 +1,76 @@
+:root{
+    --main-color: #f1b601;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: linear-gradient(to right, rgb(44, 83, 100), rgb(32, 58, 67), rgb(15, 32, 39));
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Dancing Script", "cursive";
+}
+a.btn{
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 7px 25px;
+    overflow: hidden;
+    position: relative;
+}
+a.btn:hover{
+    border: 2px solid var(--main-color);
+}
+a.btn::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition-duration: 1s;
+    background-color: var(--main-color);
+}
+a.btn:hover::after{
+    left: 0%;
+}
+a.btn span.text{
+    position: relative;
+    z-index: 2;
+    transition-duration: 1s;
+}
+a.btn:hover span.text{
+    color: #fff;
+}
+hr{
+    border: none;
+    height: 4px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    opacity: 1;
+}
+.title h4{
+    color: var(--main-color);
+}
+.title .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title .img::before,
+.title .img::after{
+    content: "";
+    display: block;
+    width: 5%;
+    height: 2px;
+    background-color: #fff;
+}
+textarea{
+    resize: none;
+}

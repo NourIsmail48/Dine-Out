@@ -1,0 +1,480 @@
+@media (max-width: 1300px) {
+    header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption h1{
+        font-size: 35px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption p{
+        width: 100%;
+        font-size: 12px;
+    }
+    a.btn{
+        font-size: 13px;
+        padding: 3px 15px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption .img{
+        width: 40%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2).active .carousel-caption .img{
+        top: 30px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption p.h1{
+        font-size: 55px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption .box p.p{
+        font-size: 12px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption .pizza img{
+        width: 0%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .burger img{
+        width: 0%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption p.h1{
+        font-size: 22px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption p.p{
+        font-size: 12px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .icon img{
+        width: 50%;
+    }
+    header .carousel button{
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        bottom: 20px;
+        right: 30px;
+    }
+    header .carousel button:nth-of-type(1){
+        right: 90px;
+    }
+    .products img{
+        width: 40px;
+        height: 40px;
+    }
+    .title h4{
+        font-size: 20px;
+    }
+    .title p.h1{
+        font-size: 35px;
+    }
+    .title img{
+        width: 20%;
+    }
+    .title .img::before,
+    .title .img::after{
+        width: 15%;
+    }
+    #About .part1{
+        margin-bottom: 50px;
+    }
+    #About .part1 p.h3{
+        font-size: 17px;
+    }
+    #About .part1 p.p{
+        font-size: 12px;
+    }
+    #About .part1 .icons h5{
+        font-size: 13px;
+    }
+    #About .part1 a{
+        font-size: 17px;
+        padding: 8px 25px;
+    }
+    #About .part2{
+        height: 200px;
+        margin-bottom: 5px;
+    }
+    #About .part2 h3{
+        transform: translate(-30%, -50%);
+    }
+    #Testimonials{
+        height: initial;
+        background-image: url(../images/video_image-min.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    #Testimonials video{
+        display: none;
+    }
+    #Testimonials h2{
+        font-size: 20px;
+    }
+    #Testimonials p.p{
+        font-size: 12px;
+        width: 100%;
+    }
+    #Menu .buttons{
+        overflow: auto;
+    }
+    #Menu .nav-link{
+        padding: 15px 16px;
+    }
+    #Menu .nav-link:nth-of-type(1){
+        border-radius: 5px 0px 0px 5px;
+    }
+    #Menu .nav-link:nth-of-type(7){
+        border-radius: 0px 5px 5px 0px;
+    }
+    #Menu .nav-link::after{
+        border: 10px solid transparent;
+        border-bottom-width: 0;
+        border-bottom-color: #fff;
+        top: initial;
+        bottom: 0%;
+        right: initial;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #Menu .nav-link.active:after {
+        border-bottom-width: 10px;
+    }
+    #Menu .tab-pane .item .body .general p{
+        font-size: 12px;
+    }
+    #Menu .tab-pane .item .body .general i{
+        font-size: 11px;
+    }
+    #Team .item{
+        max-width: 280px;
+        margin: auto;
+    }
+    #Team .col-md-4:not(:last-child) .item{
+        margin-bottom: 70px;
+    }
+    #Order .part1 .item{
+        width: 100%;
+        padding: 20px 25px;
+    }
+    #Order .part2{
+        display: none;
+    }
+    footer p{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption h1{
+        font-size: 43px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption p{
+        width: 90%;
+        font-size: 14px;
+    }
+    a.btn{
+        font-size: 17px;
+        padding: 8px 25px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption .img{
+        width: 35%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption p.h1{
+        font-size: 60px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption .box p.p{
+        font-size: 14px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption p.h1{
+        font-size: 26px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption p.p{
+        font-size: 14px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .icon img{
+        width: 43%;
+    }
+    .title img{
+        width: 19%;
+    }
+    #About .part1 p.h3{
+        font-size: 20px;
+    }
+    #About .part1 .icons h5{
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+    #About .part2{
+        height: 250px;
+    }
+    #About .part2 h3{
+        transform: translate(-40%, -50%);
+    }
+    footer p{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption h1{
+        font-size: 60px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption p{
+        width: 80%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption .img{
+        width: 50%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption .box{
+        width: 75%;
+        margin: auto;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .icon img{
+        width: 29%;
+    }
+    .title img{
+        width: 18%;
+    }
+    .title .img::before,
+    .title .img::after{
+        width: 10%;
+    }
+    #About .part1 p.h3{
+        font-size: 25px;
+    }
+    #About .part1 p.p{
+        font-size: 16px;
+    }
+    #About .part2{
+        height: 300px;
+    }
+    #Testimonials h2{
+        font-size: 30px;
+    }
+    #Testimonials p.p{
+        font-size: 16px;
+        width: 100%;
+    }
+    #Testimonials .col-md-3:nth-of-type(3){
+        margin-bottom: 0px;
+    }
+    #Menu .title img{
+        width: 15%;
+    }
+    #Menu .buttons{
+        justify-content: center;
+    }
+    #Menu .tab-pane .item .body .general p{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption h1{
+        font-size: 65px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption p{
+        width: 65%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption .box{
+        width: 100%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption .box p.h3{
+        font-size: 23px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption .pizza img{
+        width: 100%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .burger img{
+        width: 100%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .icon img{
+        width: 40%;
+    }
+    #About .content{
+        margin-bottom: 40px;
+    }
+    .title img{
+        width: 13%;
+    }
+    #About .part1{
+        margin-bottom: 0px;
+    }
+    #About .part1 p.h3{
+        font-size: 20px;
+    }
+    #About .part1 p.p{
+        font-size: 12px;
+    }
+    #About .part1 .icons h5{
+        font-size: 15px;
+    }
+    #About .part2{
+        height: 250px;
+        margin-bottom: 0px;
+    }
+    #About .part2 h3{
+        transform: translate(-30%, -50%);
+    }
+    #Testimonials video{
+        display: initial;
+    }
+    #Testimonials h2{
+        font-size: 35px;
+    }
+    #Testimonials p.p{
+        font-size: 16px;
+        width: 90%;
+    }
+    #Testimonials .item{
+        padding: 15px;
+    }
+    #Testimonials img{
+        width: 45px;
+        height: 45px;
+    }
+    #Testimonials .item p{
+        font-size: 18px;
+    }
+    #Testimonials .item h4{
+        font-size: 17px;
+    }
+    #Menu .title img{
+        width: 11%;
+    }
+    #Team .col-md-4:not(:last-child) .item{
+        margin-bottom: 0px;
+    }
+    #Team .item .info p.h4{
+        font-size: 20px;
+    }
+    #Team .col-md-4:last-child .item .info p.h4{
+        font-size: 17px;
+    }
+    #Order .part2{
+        display: initial;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption p{
+        width: 60%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .icon img{
+        width: 35%;
+    }
+    header .carousel button{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        bottom: 20px;
+        right: 50px;
+    }
+    header .carousel button:nth-of-type(1){
+        right: 130px;
+    }
+    #About .content{
+        margin-bottom: 0px;
+    }
+    .title img{
+        width: 10%;
+    }
+    #About .part1 .icons h5{
+        font-size: 18px;
+    }
+    #About .part2 h3{
+        transform: translate(-50%, -50%);
+    }
+    #Testimonials img{
+        width: 50px;
+        height: 50px;
+    }
+    #Testimonials .item p{
+        font-size: 20px;
+    }
+    #Testimonials .item h4{
+        font-size: 20px;
+    }
+    #Menu .title img{
+        width: 9%;
+    }
+    #Menu .nav-link:nth-of-type(1){
+        border-radius: 5px 5px 0px 0px;
+    }
+    #Menu .nav-link:nth-of-type(7){
+        border-radius: 0px 0px 5px 5px;
+    }
+    #Menu .nav-link::after{
+        border: 10px solid transparent;
+        border-right-width: 0;
+        border-right-color: #fff;
+        top: 50%;
+        bottom: initial;
+        right: 0%;
+        left: initial;
+        transform: translateY(-50%);
+    }
+    #Menu .nav-link.active:after {
+        border-right-width: 10px;
+    }
+    #Menu .tab-pane .item .body .general i{
+        font-size: 8px;
+    }
+    #Menu .tab-pane .item .body .main p{
+        font-size: 14px;
+    }
+    #Team .item .info p.h4{
+        font-size: 25px;
+    }
+    #Team .col-md-4:last-child .item .info p.h4{
+        font-size: 22px;
+    }
+    #Order .part1 .item{
+        width: 85%;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption h1{
+        font-size: 90px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(1) .carousel-caption p{
+        width: 50%;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2).active .carousel-caption .img{
+        top: 45px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption p.h1{
+        font-size: 90px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(2) .carousel-caption .box p.h3{
+        font-size: 25px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption p.h1{
+        font-size: 50px;
+    }
+    header .carousel-inner .carousel-item:nth-of-type(3) .carousel-caption .icon img{
+        width: 45%;
+    }
+    header .carousel button{
+        bottom: 30px;
+        right: 70px;
+    }
+    header .carousel button:nth-of-type(1){
+        right: 150px;
+    }
+    .title .img::before,
+    .title .img::after{
+        width: 5%;
+    }
+    #About .part2{
+        height: 300px;
+    }
+    #Testimonials p.p{
+        width: 75%;
+    }
+    #Testimonials .item{
+        padding: 15px 20px;
+    }
+    #Menu .title img{
+        width: 8%;
+    }
+    #Menu .title .img::before,
+    #Menu .title .img::after{
+        width: 10%;
+    }
+    #Order .part1 .item{
+        width: 75%;
+        padding: 30px 40px;
+    }
+}

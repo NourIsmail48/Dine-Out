@@ -1,0 +1,72 @@
+@keyframes pizza{
+    from{
+        transform: rotateZ(360deg);
+    }
+    to{
+        transform: rotateZ(0deg);
+    }
+}
+@keyframes burger{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(-30px);
+    }
+}
+@keyframes button-1{
+    0%{
+        top: 0px;
+    }
+    25%{
+        top: 5px;
+    }
+    50%{
+        top: 10px;
+    }
+    100%{
+        top: 10px;
+        transform:rotate(45deg)
+    }
+}
+@keyframes button-2{
+    0%{
+        bottom: 0px;
+    }
+    25%{
+        bottom: 5px;
+    }
+    50%{
+        bottom: 10px;
+    }
+    100%{
+        bottom: 10px;
+        transform:rotate(-45deg)
+    }
+}
+@keyframes about{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes order{
+    20%{
+        opacity: 1;
+        left: 0;
+        transform: translateY(-30px);
+    }
+    50%{
+        opacity: 1;
+        left: 0;
+        transform: translateY(0px);
+    }
+    70%{
+        opacity: 0;
+        left: 200%;
+        transform: translateY(0px);
+    }
+
+}
