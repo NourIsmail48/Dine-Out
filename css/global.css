@@ -1,13 +1,13 @@
 :root{
-    --main-color: #f1b601;
+    --main-color: rgb(241, 182, 1);
 }
-::-webkit-scrollbar{
+html::-webkit-scrollbar{
     width: 16px;
 }
-::-webkit-scrollbar-track{
+html::-webkit-scrollbar-track{
     background-image: linear-gradient(to right, rgb(44, 83, 100), rgb(32, 58, 67), rgb(15, 32, 39));
 }
-::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb{
     background-color: var(--main-color);
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
